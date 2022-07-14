@@ -1,7 +1,7 @@
 {
-  "name": "my-store",
+  "name": "My Store",
   "version": "1.0.0",
-  "description": "projeto de testes de aceitação do app My Store",
+  "description": "projeto de testes de aceitação do app My store",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
@@ -9,6 +9,7 @@
   "author": "Jorge Luiz Cardoso",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.6.1"
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }
